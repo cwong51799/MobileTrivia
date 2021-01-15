@@ -1,0 +1,67 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-android-extensions'
+}
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "30.0.3"
+    apply plugin: 'kotlin-kapt'
+    defaultConfig {
+        applicationId "com.cwong51799.mobiletrivia"
+        minSdkVersion 16
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+    implementation kotlinLib.kotlin_lib
+    implementation androidx.core
+    implementation androidx.appcompat
+    implementation androidx.constraintLayout
+    androidTestImplementation androidx.junit
+    androidTestImplementation androidx.espresso
+    androidTestImplementation androidTest.support_test_rules
+    androidTestImplementation androidTest.support_test_runner
+    testImplementation test.junit
+    // Kotlin
+    implementation androidx.navigation_fragment
+    implementation androidx.navigation_ui
+
+    // Dynamic Feature Module Support
+    implementation androidx.navigation_dynamic_features_fragment
+
+    // Moshi
+    implementation moshi.moshi_lib
+    implementation retrofit.retrofit_converter_moshi
+    kapt moshi.moshi_codegen
+    implementation retrofit.retrofit_lib
+    implementation material.materialDesign
+    implementation androidx.lifecycle_extensions
+    implementation androidx.lifecycle_viewmodel
+
+
+
+    // Testing Navigation
+    androidTestImplementation androidx.navigation_testing
+
+}
