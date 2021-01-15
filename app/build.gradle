@@ -14,7 +14,7 @@ android {
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
-
+        multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -34,6 +34,10 @@ android {
 }
 
 dependencies {
+    // Instant app
+    implementation "com.google.android.gms:play-services-instantapps:17.0.0"
+    implementation 'androidx.multidex:multidex:2.0.1'
+
     implementation kotlinLib.kotlin_lib
     implementation androidx.core
     implementation androidx.appcompat
