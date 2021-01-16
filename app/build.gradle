@@ -5,6 +5,14 @@ plugins {
 }
 
 android {
+    signingConfigs {
+        config {
+            storeFile file('xxxxx')
+            storePassword 'xxxxx'
+            keyAlias 'xxxxxx'
+            keyPassword 'xxxxx'
+        }
+    }
     compileSdkVersion 29
     buildToolsVersion "30.0.3"
     apply plugin: 'kotlin-kapt'
@@ -16,6 +24,7 @@ android {
         versionName "1.0"
         multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        signingConfig signingConfigs.config
     }
 
     buildTypes {
