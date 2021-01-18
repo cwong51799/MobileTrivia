@@ -29,6 +29,10 @@
                     android:scheme="http"
                     android:host="christopherwong.xyz"
                     android:pathPattern="/trivia" />
+                <data
+                    android:scheme="https"
+                    android:host="christopherwong.xyz"
+                    android:pathPattern="/trivia" />
             </intent-filter>
         </activity>
     </application>
