@@ -53,7 +53,7 @@ class PostQuestionFragment : Fragment() {
                 navController.navigate(
                     R.id.triviaOptionsFragment,
                     null,
-                    TriviaUtils.getOptionsWithReturnSetToFragment(R.id.triviaMainFragment)
+                    TriviaUtils.getOptionsWithReturnSetToFragment(R.id.triviaOptionsFragment)
                 )
             } else {
                 viewModel.resetQuestion()

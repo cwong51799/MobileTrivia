@@ -3,4 +3,5 @@
     <dimen name="standardTextSize">36sp</dimen>
     <dimen name="standardLabelSize">40sp</dimen>
     <dimen name="text_margin">16dp</dimen>
+    <dimen name="side_margin">10dp</dimen>
 </resources>

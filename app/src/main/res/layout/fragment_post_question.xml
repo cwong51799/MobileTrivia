@@ -16,11 +16,13 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight=".05"
-            android:layout_marginTop="4dp"
+            android:layout_marginTop="30dp"
             android:autoSizeMaxTextSize="100sp"
             android:autoSizeMinTextSize="12sp"
             android:autoSizeStepGranularity="2sp"
             android:autoSizeTextType="uniform"
+            android:layout_marginStart="@dimen/side_margin"
+            android:layout_marginEnd="@dimen/side_margin"
             android:gravity="center"
             android:text="@string/trivia_question_label"
             android:textSize="28sp" />
@@ -34,6 +36,8 @@
             android:autoSizeMinTextSize="12sp"
             android:autoSizeStepGranularity="2sp"
             android:autoSizeTextType="uniform"
+            android:layout_marginStart="@dimen/side_margin"
+            android:layout_marginEnd="@dimen/side_margin"
             android:gravity="center"
             tools:text="Trivia Question Text" />
 
@@ -47,6 +51,8 @@
             android:autoSizeMinTextSize="12sp"
             android:autoSizeStepGranularity="2sp"
             android:autoSizeTextType="uniform"
+            android:layout_marginStart="@dimen/side_margin"
+            android:layout_marginEnd="@dimen/side_margin"
             android:gravity="center"
             android:text="@string/trivia_answer_label"
             android:textSize="28sp" />
@@ -61,6 +67,8 @@
             android:autoSizeStepGranularity="2sp"
             android:autoSizeTextType="uniform"
             android:gravity="center"
+            android:layout_marginStart="@dimen/side_margin"
+            android:layout_marginEnd="@dimen/side_margin"
             tools:text="Trivia Answer Text" />
 
         <View
@@ -78,6 +86,8 @@
             android:autoSizeMinTextSize="12sp"
             android:autoSizeStepGranularity="2sp"
             android:autoSizeTextType="uniform"
+            android:layout_marginStart="@dimen/side_margin"
+            android:layout_marginEnd="@dimen/side_margin"
             tools:text = "CORRECT"
             android:gravity="center" />
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -134,6 +144,7 @@
             android:autoSizeMinTextSize="12sp"
             android:autoSizeStepGranularity="2sp"
             android:autoSizeTextType="uniform"
+            android:layout_margin="@dimen/side_margin"
             android:text="@string/next_question" />
     </LinearLayout>
 
