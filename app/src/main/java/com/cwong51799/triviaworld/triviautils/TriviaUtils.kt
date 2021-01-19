@@ -1,11 +1,11 @@
-package com.cwong51799.mobiletrivia.triviautils
+package com.cwong51799.triviaworld.triviautils
 
 import android.text.Spanned
 import androidx.core.text.HtmlCompat
 import androidx.navigation.NavOptions
 import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
-import com.cwong51799.mobiletrivia.network.TriviaServices
+import com.cwong51799.triviaworld.network.TriviaServices
 
 /**
  * Applies formatting since the API returns some weird format for " and '

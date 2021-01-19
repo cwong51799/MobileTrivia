@@ -18,7 +18,7 @@
     <string name="default_num_questions">5</string>
     <string name="search_poke_id">Search Pokedex ID</string>
     <string name="default_question_count">5</string>
-    <string name="app_name">Mobile-Trivia</string>
+    <string name="app_name">Trivia World</string>
 
 
     <string-array name="trivia_categories">

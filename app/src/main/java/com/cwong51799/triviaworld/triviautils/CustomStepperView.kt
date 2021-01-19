@@ -1,10 +1,10 @@
-package com.cwong51799.mobiletrivia.triviautils
+package com.cwong51799.triviaworld.triviautils
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import androidx.constraintlayout.widget.ConstraintLayout
-import com.cwong51799.mobiletrivia.R
+import com.cwong51799.triviaworld.R
 import kotlinx.android.synthetic.main.custom_stepper_view.view.*
 
 class CustomStepperView @JvmOverloads constructor(

@@ -1,6 +1,6 @@
-package com.cwong51799.mobiletrivia.triviautils
+package com.cwong51799.triviaworld.triviautils
 
-import com.cwong51799.mobiletrivia.network.TriviaQuestion
+import com.cwong51799.triviaworld.network.TriviaQuestion
 
 data class TriviaSettings (var numQuestions : Int, var category : Int?, var difficulty : String)
 

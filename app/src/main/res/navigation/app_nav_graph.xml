@@ -6,7 +6,7 @@
     app:startDestination="@id/triviaOptionsFragment">
     <fragment
         android:id="@+id/triviaMainFragment"
-        android:name="com.cwong51799.mobiletrivia.fragments.TriviaFragment"
+        android:name="com.cwong51799.triviaworld.fragments.TriviaFragment"
         android:label="fragment_trivia_api"
         tools:layout="@layout/fragment_trivia_api">
         <action
@@ -20,7 +20,7 @@
     </fragment>
     <fragment
         android:id="@+id/postQuestionFragment"
-        android:name="com.cwong51799.mobiletrivia.fragments.PostQuestionFragment"
+        android:name="com.cwong51799.triviaworld.fragments.PostQuestionFragment"
         android:label="fragment_post_question"
         tools:layout="@layout/fragment_post_question">
         <action
@@ -30,7 +30,7 @@
     </fragment>
     <fragment
         android:id="@+id/triviaOptionsFragment"
-        android:name="com.cwong51799.mobiletrivia.fragments.TriviaOptionsFragment"
+        android:name="com.cwong51799.triviaworld.fragments.TriviaOptionsFragment"
         android:label="fragment_trivia_options"
         tools:layout="@layout/fragment_trivia_options" >
         <action

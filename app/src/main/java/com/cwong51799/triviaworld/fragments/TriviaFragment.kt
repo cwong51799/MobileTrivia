@@ -1,4 +1,4 @@
-package com.cwong51799.mobiletrivia.fragments
+package com.cwong51799.triviaworld.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,11 +10,11 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProviders
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
-import com.cwong51799.mobiletrivia.viewmodels.TriviaViewModel
-import com.cwong51799.mobiletrivia.triviautils.TriviaOptionView
-import com.cwong51799.mobiletrivia.network.TriviaQuestion
-import com.cwong51799.mobiletrivia.triviautils.TriviaUtils
-import com.cwong51799.mobiletrivia.R
+import com.cwong51799.triviaworld.viewmodels.TriviaViewModel
+import com.cwong51799.triviaworld.triviautils.TriviaOptionView
+import com.cwong51799.triviaworld.network.TriviaQuestion
+import com.cwong51799.triviaworld.triviautils.TriviaUtils
+import com.cwong51799.triviaworld.R
 
 
 class TriviaFragment : Fragment() {

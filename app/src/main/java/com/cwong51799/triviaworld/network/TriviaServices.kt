@@ -1,4 +1,4 @@
-package com.cwong51799.mobiletrivia.network
+package com.cwong51799.triviaworld.network
 
 import retrofit2.Call
 import retrofit2.http.GET

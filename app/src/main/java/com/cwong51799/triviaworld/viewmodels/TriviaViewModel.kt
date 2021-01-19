@@ -1,12 +1,12 @@
-package com.cwong51799.mobiletrivia.viewmodels
+package com.cwong51799.triviaworld.viewmodels
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.cwong51799.mobiletrivia.network.TriviaQuestion
-import com.cwong51799.mobiletrivia.network.TriviaResponse
-import com.cwong51799.mobiletrivia.triviautils.TriviaQuestionWithStatus
-import com.cwong51799.mobiletrivia.triviautils.TriviaSettings
-import com.cwong51799.mobiletrivia.triviautils.TriviaUtils
+import com.cwong51799.triviaworld.network.TriviaQuestion
+import com.cwong51799.triviaworld.network.TriviaResponse
+import com.cwong51799.triviaworld.triviautils.TriviaQuestionWithStatus
+import com.cwong51799.triviaworld.triviautils.TriviaSettings
+import com.cwong51799.triviaworld.triviautils.TriviaUtils
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
