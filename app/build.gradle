@@ -20,11 +20,11 @@ android {
     buildToolsVersion "30.0.3"
     apply plugin: 'kotlin-kapt'
     defaultConfig {
-        applicationId "com.cwong51799.triviaworld"
+        applicationId "com.cwong51799.mobiletrivia"
         minSdkVersion 16
         targetSdkVersion 29
-        versionCode 1
-        versionName "Trivia World Release"
+        versionCode 99
+        versionName "Renamed to Trivia World for Instant app"
         multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         signingConfig signingConfigs.config

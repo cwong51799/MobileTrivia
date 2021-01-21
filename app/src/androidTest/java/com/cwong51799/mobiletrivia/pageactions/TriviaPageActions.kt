@@ -1,4 +1,4 @@
-package com.cwong51799.triviaworld.pageactions
+package com.cwong51799.mobiletrivia.pageactions
 
 import android.view.View
 import androidx.test.espresso.Espresso.onView
@@ -6,7 +6,7 @@ import androidx.test.espresso.ViewInteraction
 import androidx.test.espresso.action.ViewActions.click
 import androidx.test.espresso.assertion.ViewAssertions.matches
 import androidx.test.espresso.matcher.ViewMatchers.*
-import com.cwong51799.triviaworld.R
+import com.cwong51799.mobiletrivia.R
 import org.hamcrest.Matcher
 import java.lang.Exception
 import java.lang.Thread.sleep

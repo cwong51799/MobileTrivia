@@ -1,4 +1,4 @@
-package com.cwong51799.triviaworld.network
+package com.cwong51799.mobiletrivia.network
 
 import com.squareup.moshi.JsonClass
 

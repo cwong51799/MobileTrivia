@@ -1,4 +1,4 @@
-package com.cwong51799.triviaworld.fragments
+package com.cwong51799.mobiletrivia.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -10,11 +10,11 @@ import android.widget.Spinner
 import androidx.lifecycle.ViewModelProviders
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
-import com.cwong51799.triviaworld.viewmodels.TriviaViewModel
-import com.cwong51799.triviaworld.triviautils.TriviaSettings
-import com.cwong51799.triviaworld.triviautils.TriviaUtils
-import com.cwong51799.triviaworld.R
-import com.cwong51799.triviaworld.triviautils.CustomStepperView
+import com.cwong51799.mobiletrivia.viewmodels.TriviaViewModel
+import com.cwong51799.mobiletrivia.triviautils.TriviaSettings
+import com.cwong51799.mobiletrivia.triviautils.TriviaUtils
+import com.cwong51799.mobiletrivia.R
+import com.cwong51799.mobiletrivia.triviautils.CustomStepperView
 
 
 /**

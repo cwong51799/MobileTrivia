@@ -1,4 +1,4 @@
-package com.cwong51799.triviaworld
+package com.cwong51799.mobiletrivia
 
 import org.junit.Test
 

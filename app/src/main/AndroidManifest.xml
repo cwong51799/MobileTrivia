@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     android:targetSandboxVersion="2"
-    package="com.cwong51799.triviaworld"
+    package="com.cwong51799.mobiletrivia"
     xmlns:dist="http://schemas.android.com/apk/distribution">
 
     <dist:module dist:instant="true" />
@@ -13,7 +13,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.cwong51799.triviaworld.MainActivity">
+        <activity android:name="com.cwong51799.mobiletrivia.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,34 +21,22 @@
             </intent-filter>
             <meta-data
                 android:name="default-url"
-                android:value="https://cwong51799.github.com/triviaworld" />
-
+                android:value="https://christopherwong.xyz/trivia" />
             <intent-filter android:autoVerify="true">
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-
                 <data
                     android:scheme="https"
-                    android:host="cwong51799.github.com"
-                    android:pathPattern="/triviaworld" />
+                    android:host="christopherwong.xyz"
+                    android:pathPattern="/trivia" />
                 <data
                     android:scheme="http"
-                    android:host="cwong51799.github.com"
-                    android:pathPattern="/triviaworld" />
+                    android:host="christopherwong.xyz"
+                    android:pathPattern="/trivia" />
             </intent-filter>
-            <intent-filter>
-                <action android:name="android.intent.action.VIEW" />
 
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
-
-                <data
-                    android:scheme="http"
-                    android:host="cwong51799.github.com"
-                    android:pathPattern="/triviaworld" />
-            </intent-filter>
         </activity>
     </application>
 
